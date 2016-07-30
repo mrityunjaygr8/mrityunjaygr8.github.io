@@ -755,7 +755,7 @@ input[type='radio'] {
 }
 
 /* line 5, ../sass/modules/mili/_Grid.scss */
-.container {
+.container, .cont {
   margin: 0 auto;
   max-width: 112rem;
   padding: 0 2rem;
@@ -1147,59 +1147,65 @@ body {
 }
 
 /* line 10, ../sass/style_c.scss */
+.cont {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+/* line 16, ../sass/style_c.scss */
 .color {
-  height: 19.8vh;
+  height: 20vh;
   text-align: center;
 }
-/* line 15, ../sass/style_c.scss */
+/* line 21, ../sass/style_c.scss */
 .color:nth-child(1) {
   background: #FAF3DD;
 }
-/* line 18, ../sass/style_c.scss */
+/* line 24, ../sass/style_c.scss */
 .color:nth-child(1):before {
   margin: 5% auto;
   color: #d8a400;
   font-size: 4rem;
   content: "#FAF3DD";
 }
-/* line 15, ../sass/style_c.scss */
+/* line 21, ../sass/style_c.scss */
 .color:nth-child(2) {
   background: #AED9E0;
 }
-/* line 18, ../sass/style_c.scss */
+/* line 24, ../sass/style_c.scss */
 .color:nth-child(2):before {
   margin: 5% auto;
   color: #007b8f;
   font-size: 4rem;
   content: "#AED9E0";
 }
-/* line 15, ../sass/style_c.scss */
+/* line 21, ../sass/style_c.scss */
 .color:nth-child(3) {
   background: #5E6472;
 }
-/* line 18, ../sass/style_c.scss */
+/* line 24, ../sass/style_c.scss */
 .color:nth-child(3):before {
   margin: 5% auto;
   color: black;
   font-size: 4rem;
   content: "#5E6472";
 }
-/* line 15, ../sass/style_c.scss */
+/* line 21, ../sass/style_c.scss */
 .color:nth-child(4) {
   background: #FFA69E;
 }
-/* line 18, ../sass/style_c.scss */
+/* line 24, ../sass/style_c.scss */
 .color:nth-child(4):before {
   margin: 5% auto;
   color: #9e0d00;
   font-size: 4rem;
   content: "#FFA69E";
 }
-/* line 15, ../sass/style_c.scss */
+/* line 21, ../sass/style_c.scss */
 .color:nth-child(5) {
   background: #B8F2E6;
 }
-/* line 18, ../sass/style_c.scss */
+/* line 24, ../sass/style_c.scss */
 .color:nth-child(5):before {
   margin: 5% auto;
   color: #00ab88;
