@@ -470,14 +470,14 @@ body {
   background: rgba(174, 217, 224, 0.75);
 }
 
-/* line 4, ../sass/modules/mili/_Blockquote.scss */
+/* line 3, ../sass/modules/mili/_Blockquote.scss */
 blockquote {
   border-left: 0.3rem solid #B8F2E6;
   margin-left: 0;
   margin-right: 0;
   padding: 1rem 1.5rem;
 }
-/* line 10, ../sass/modules/mili/_Blockquote.scss */
+/* line 9, ../sass/modules/mili/_Blockquote.scss */
 blockquote *:last-child {
   margin: 0;
 }
@@ -1139,4 +1139,14 @@ h6 {
 /* line 22, ../sass/modules/mili/_Utility.scss */
 .clearfix:after {
   clear: both;
+}
+
+/* line 1, ../sass/modules/header/_header.scss */
+.header {
+  background: #FFA69E;
+  min-height: 10vh;
+}
+/* line 5, ../sass/modules/header/_header.scss */
+.header .column {
+  min-height: 10vh;
 }
