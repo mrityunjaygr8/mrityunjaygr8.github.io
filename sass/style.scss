@@ -8,6 +8,10 @@
 @import "typography";
 @import "utilities";
 
+// font import
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+
+
 .container{
     @include container;
 
@@ -40,6 +44,7 @@
 
 .brand{
     @include span(10);
+    color: initial;
 }
 
 .menu{
@@ -61,5 +66,8 @@
 }
 
 .heading{
-    color: $secondary-c;
+    font-family: "Lobster";
+    .wrap &{
+        color: $secondary-c;
+    }
 }
