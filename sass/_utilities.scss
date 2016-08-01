@@ -3,3 +3,11 @@
         display: none;
     }
 }
+
+.no-mobile{
+    display: none;
+
+    @include susy-breakpoint(40rem){
+        display: block;
+    }
+}
