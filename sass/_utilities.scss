@@ -1,0 +1,5 @@
+.mobile{
+    @include susy-breakpoint(40rem){
+        display: none;
+    }
+}

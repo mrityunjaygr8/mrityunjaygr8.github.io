@@ -1,0 +1,48 @@
+$honeycell-color: #ff8f00 !default;
+$honeycell-margin: 10px !default;
+$honeycell-width: 200px !default;
+
+.honeycomb {
+    margin: 10px;
+    padding: 10px;
+}
+
+.honeyrow {
+    margin: $honeycell-margin * .8660 0 0;
+
+    &:nth-child(even) {
+        margin-left: $honeycell-width / 2 + $honeycell-margin;
+    }
+}
+
+.honeycell {
+    background-color: $honeycell-color;
+    display: inline-block;
+    width: $honeycell-width;
+    height: $honeycell-width * .5774;
+    padding: 0;
+    margin: $honeycell-width * .2887 $honeycell-margin 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    &:before, &:after {
+        content: "";
+        border-left: $honeycell-width / 2 solid transparent;
+        border-right: $honeycell-width / 2 solid transparent;
+        height: 0;
+        left: 0;
+        position: absolute;
+        width: 0;
+    }
+
+    &:before {
+        bottom: 100%;
+        border-bottom: $honeycell-width * .2887 solid $honeycell-color;
+    }
+
+    &:after {
+        border-top: $honeycell-width * .2887 solid $honeycell-color;
+        top: 100%;
+    }
+}

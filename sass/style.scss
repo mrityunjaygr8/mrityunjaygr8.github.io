@@ -1,3 +1,65 @@
-@import "modules/normalize";
-@import "modules/mili/milligram";
-@import "modules/header/header";
+// Screen
+// ======
+
+@import "grids";
+@import "normalize";
+@import "colors";
+@import "base";
+@import "typography";
+@import "utilities";
+
+.container{
+    @include container;
+
+    & > div{
+        padding: 1rem;
+    }
+
+    &.wrap > div{
+        min-height: 50vh;
+    }
+
+    &.header > div,
+    &.footer > div{
+        min-height: 10vh;
+    }
+}
+
+
+.content{
+    @include susy-breakpoint(40rem){
+        @include span(8);
+    }
+}
+
+.sidebar{
+    @include susy-breakpoint(40rem){
+        @include span(4 last);
+    }
+}
+
+.brand{
+    @include span(10);
+}
+
+.menu{
+    @include span(2 last);
+}
+
+.footer{
+    background: $tertiary-c;
+}
+
+.footer__element{
+    background: $primary-c;
+    @include susy-breakpoint(40rem){
+        @include span(4);
+        &:last-child{
+            @include last;
+        }
+    }
+}
+
+.heading{
+    color: $secondary-c;
+}

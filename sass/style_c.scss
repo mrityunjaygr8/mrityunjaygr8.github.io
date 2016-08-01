@@ -1,32 +1,31 @@
-@import "modules/normalize";
-@import "modules/mili/milligram";
+// @import "normalize";
 
-$color-list: $color-initial, $color-primary, $color-secondary, $color-tertiary, $color-quaternary ;
+// $color-list: $color-initial, $color-primary, $color-secondary, $color-tertiary, $color-quaternary ;
 
-body{
-    background: transparent;
-}
+// body{
+//     background: transparent;
+// }
 
-.cont{
-    @extend .container;
-    max-width: 100%;
-    padding: 0 1rem;
-}
+// .cont{
+//     @extend .container;
+//     max-width: 100%;
+//     padding: 0 1rem;
+// }
 
-.color {
-    height: 20vh;
-    text-align: center;
+// .color {
+//     height: 20vh;
+//     text-align: center;
 
-    @for $i from 1 to length($color-list)+1{
-        &:nth-child(#{$i}){
-            background: nth($color-list, $i);
+//     @for $i from 1 to length($color-list)+1{
+//         &:nth-child(#{$i}){
+//             background: nth($color-list, $i);
 
-            &:before{
-                margin: 5% auto;
-                color: saturate(darken(nth($color-list, $i), 50%), 100%);
-                font-size: 4rem;
-                content: ""+nth($color-list, $i)+"";
-            }
-        }
-    }
-}
+//             &:before{
+//                 margin: 5% auto;
+//                 color: saturate(darken(nth($color-list, $i), 50%), 100%);
+//                 font-size: 4rem;
+//                 content: ""+nth($color-list, $i)+"";
+//             }
+//         }
+//     }
+// }
