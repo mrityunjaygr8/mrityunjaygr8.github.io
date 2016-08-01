@@ -29,6 +29,10 @@
     }
 }
 
+.wrap{
+    position: relative;
+}
+
 
 .content{
     @include susy-breakpoint(40rem){
@@ -37,6 +41,7 @@
 }
 
 .sidebar{
+    background: $secondary-c;
     @include susy-breakpoint(40rem){
         @include span(4 last);
     }
@@ -48,7 +53,7 @@
 }
 
 .menu{
-    @include span(2 last);
+    @include span(1 last);
 }
 
 .footer{

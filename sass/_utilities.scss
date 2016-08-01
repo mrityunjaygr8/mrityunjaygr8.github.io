@@ -8,6 +8,6 @@
     display: none;
 
     @include susy-breakpoint(40rem){
-        display: block;
+        display: inline;
     }
 }
