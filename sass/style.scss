@@ -53,7 +53,13 @@
 }
 
 .menu{
-    @include span(1 last);
+    @include span(2 last);
+    @include susy-breakpoint(40rem){
+        @include span(1 last);
+        > a{
+            float: inherit;
+        }
+    }
 }
 
 .footer{
