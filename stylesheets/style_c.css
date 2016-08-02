@@ -770,6 +770,7 @@ a:hover {
   background-position: 0 12rem;
   background-attachment: fixed;
   width: 100%;
+  height: 150px;
   padding-top: 25%;
   padding-bottom: 25%;
   background-size: 100%;
