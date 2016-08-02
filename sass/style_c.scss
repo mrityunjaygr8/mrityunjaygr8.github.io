@@ -20,6 +20,7 @@
     color: $tertiary-c;
     height: 12rem;
     @include full;
+    z-index: 4;
     & a:hover{
         background: transparentize($secondary-c, 0.40);
     }
