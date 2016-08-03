@@ -107,17 +107,12 @@ p
 a
 {
     text-decoration: none;
-
     color: inherit;
-    &:hover
-    {
-        background: transparentize($tertiary-c, .40);
-    }
 }
 
 .heading{
     font-family: "Lobster";
     .wrap &{
-        color: $secondary-c;
+        color: darken($secondary-c, 12.5%);
     }
 }

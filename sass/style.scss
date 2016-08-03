@@ -1,76 +1,76 @@
-// Screen
-// ======
+// // Screen
+// // ======
 
-@import "grids";
-@import "normalize";
-@import "colors";
-@import "base";
-@import "typography";
-@import "utilities";
+// @import "grids";
+// @import "normalize";
+// @import "colors";
+// @import "base";
+// @import "typography";
+// @import "utilities";
 
-// font import
-@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+// // font import
+// @import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
 
-.container{
-    @include container;
-    @include show-grid(overlay);
-    & > div{
-        padding: 1rem;
-    }
+// .container{
+//     @include container;
+//     @include show-grid(overlay);
+//     & > div{
+//         padding: 1rem;
+//     }
 
-    &.wrap > div{
-        min-height: 50vh;
-    }
+//     &.wrap > div{
+//         min-height: 50vh;
+//     }
 
-    &.header > div,
-    &.footer > div{
-        min-height: 10vh;
-    }
-}
+//     &.header > div,
+//     &.footer > div{
+//         min-height: 10vh;
+//     }
+// }
 
-.wrap{
-    position: relative;
-}
+// .wrap{
+//     position: relative;
+// }
 
 
-.content{
-    @include susy-breakpoint(40rem){
-        @include span(8);
-    }
-}
+// .content{
+//     @include susy-breakpoint(40rem){
+//         @include span(8);
+//     }
+// }
 
-.sidebar{
-    background: $tertiary-c;
-    @include susy-breakpoint(40rem){
-        @include span(4 last);
-    }
-}
+// .sidebar{
+//     background: $tertiary-c;
+//     @include susy-breakpoint(40rem){
+//         @include span(4 last);
+//     }
+// }
 
-.brand{
-    @include span(10);
-    color: initial;
-}
+// .brand{
+//     @include span(10);
+//     color: initial;
+// }
 
-.menu{
-    @include span(2 last);
-    @include susy-breakpoint(40rem){
-        @include span(1 last);
-        > a{
-            float: inherit;
-        }
-    }
-}
+// .menu{
+//     @include span(2 last);
+//     @include susy-breakpoint(40rem){
+//         @include span(1 last);
+//         > a{
+//             float: inherit;
+//         }
+//     }
+// }
 
-.footer{
-    background: $tertiary-c;
-}
+// .footer{
+//     background: $tertiary-c;
+// }
 
-.footer__element{
-    background: $primary-c;
-    @include susy-breakpoint(40rem){
-        @include span(4);
-        &:last-child{
-            @include last;
-        }
-    }
-}
+// .footer__element{
+//     background: $primary-c;
+//     @include susy-breakpoint(40rem){
+//         @include span(4);
+//         &:last-child{
+//             @include last;
+//         }
+//     }
+// }

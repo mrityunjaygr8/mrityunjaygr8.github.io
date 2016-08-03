@@ -462,7 +462,7 @@ body {
   color: #5E6472;
 }
 
-/* line 18, ../sass/_base.scss */
+/* line 17, ../sass/_base.scss */
 ::selection {
   background: rgba(174, 217, 224, 0.6);
 }
@@ -580,18 +580,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* line 112, ../sass/_typography.scss */
-a:hover {
-  background: rgba(184, 242, 230, 0.6);
-}
 
-/* line 118, ../sass/_typography.scss */
+/* line 113, ../sass/_typography.scss */
 .heading {
   font-family: "Lobster";
 }
-/* line 120, ../sass/_typography.scss */
+/* line 115, ../sass/_typography.scss */
 .wrap .heading {
-  color: #FFA69E;
+  color: #ff321e;
 }
 
 @media (min-width: 40rem) {
@@ -617,7 +613,7 @@ a:hover {
   position: fixed;
   padding: 1rem;
   background: #5E6472;
-  color: #B8F2E6;
+  color: #FCF7EA;
   height: 12rem;
   clear: both;
   width: 100%;
@@ -628,7 +624,7 @@ a:hover {
 }
 /* line 19, ../sass/style_c.scss */
 .left a:hover {
-  background: rgba(255, 166, 158, 0.6);
+  background: rgba(255, 108, 94, 0.6);
 }
 @media (min-width: 40rem) {
   /* line 11, ../sass/style_c.scss */
@@ -636,11 +632,11 @@ a:hover {
     width: 25%;
     float: left;
     height: 100vh;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.36);
+    box-shadow: 1 2px 6px rgba(0, 0, 0, 0.36);
   }
 }
 
-/* line 30, ../sass/style_c.scss */
+/* line 31, ../sass/style_c.scss */
 .right {
   padding-top: 12rem;
   min-height: 150vh;
@@ -651,7 +647,7 @@ a:hover {
   margin-right: 0;
 }
 @media (min-width: 40rem) {
-  /* line 30, ../sass/style_c.scss */
+  /* line 31, ../sass/style_c.scss */
   .right {
     width: 75%;
     float: right;
@@ -660,14 +656,14 @@ a:hover {
   }
 }
 
-/* line 40, ../sass/style_c.scss */
+/* line 41, ../sass/style_c.scss */
 .brand {
   width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
 }
 @media (min-width: 40rem) {
-  /* line 40, ../sass/style_c.scss */
+  /* line 41, ../sass/style_c.scss */
   .brand {
     position: relative;
     text-align: center;
@@ -679,14 +675,14 @@ a:hover {
   }
 }
 
-/* line 50, ../sass/style_c.scss */
+/* line 51, ../sass/style_c.scss */
 .menu {
   width: 6.77966%;
   float: right;
   margin-right: 0;
 }
 
-/* line 54, ../sass/style_c.scss */
+/* line 55, ../sass/style_c.scss */
 .bottom {
   position: relative;
   margin-top: 1rem;
@@ -697,31 +693,31 @@ a:hover {
   margin-right: 0;
 }
 @media (min-width: 40rem) {
-  /* line 54, ../sass/style_c.scss */
+  /* line 55, ../sass/style_c.scss */
   .bottom {
     position: absolute;
     bottom: 0;
   }
 }
 
-/* line 64, ../sass/style_c.scss */
+/* line 65, ../sass/style_c.scss */
 .list {
   list-style-type: none;
 }
 
-/* line 68, ../sass/style_c.scss */
+/* line 69, ../sass/style_c.scss */
 .list__item {
   width: 16.66667%;
   float: left;
   text-align: center;
 }
-/* line 71, ../sass/style_c.scss */
+/* line 72, ../sass/style_c.scss */
 .list__item:last-child {
   float: right;
   margin-right: 0;
 }
 
-/* line 76, ../sass/style_c.scss */
+/* line 77, ../sass/style_c.scss */
 .container {
   max-width: 960px;
   margin-left: auto;
@@ -734,12 +730,12 @@ a:hover {
   display: block;
   clear: both;
 }
-/* line 80, ../sass/style_c.scss */
+/* line 81, ../sass/style_c.scss */
 .left > .container {
   height: 100%;
 }
 
-/* line 85, ../sass/style_c.scss */
+/* line 86, ../sass/style_c.scss */
 .content {
   clear: both;
   width: 100%;
@@ -748,23 +744,23 @@ a:hover {
   margin-right: 0;
   padding: 1rem;
 }
-/* line 89, ../sass/style_c.scss */
+/* line 90, ../sass/style_c.scss */
 .content > .heading {
-  color: #FFA69E;
+  color: #FF6C5E;
 }
 
-/* line 94, ../sass/style_c.scss */
+/* line 95, ../sass/style_c.scss */
 .pic {
   margin: auto;
   max-width: 80%;
   height: auto;
 }
-/* line 99, ../sass/style_c.scss */
+/* line 100, ../sass/style_c.scss */
 .pic.pic-circle {
   border-radius: 50%;
 }
 
-/* line 104, ../sass/style_c.scss */
+/* line 105, ../sass/style_c.scss */
 .background-img {
   position: relative;
   background: url("../images/header6.jpg") no-repeat;
@@ -776,7 +772,7 @@ a:hover {
   background-size: 100%;
 }
 @media (min-width: 40rem) {
-  /* line 104, ../sass/style_c.scss */
+  /* line 105, ../sass/style_c.scss */
   .background-img {
     background-position: top right;
   }

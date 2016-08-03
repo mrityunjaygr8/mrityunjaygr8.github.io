@@ -12,18 +12,19 @@
     position: fixed;
     padding: 1rem;
     background: $text-c;
-    color: $tertiary-c;
+    color: $background-c;
     height: 12rem;
     @include full;
     z-index: 4;
     & a:hover{
         background: transparentize($secondary-c, 0.40);
+        // background: darken($secondary-c, 12.5%)
     }
 
     @include susy-breakpoint(40rem){
         @include span(3 of 12 0);
         height: 100vh;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.36);
+        box-shadow: 1 2px 6px rgba(0,0,0,0.36);
     }
 }
 
