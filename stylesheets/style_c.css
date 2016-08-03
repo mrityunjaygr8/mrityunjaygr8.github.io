@@ -458,11 +458,11 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-  background: #FAF3DD;
+  background: #FCF7EA;
   color: #5E6472;
 }
 
-/* line 17, ../sass/_base.scss */
+/* line 18, ../sass/_base.scss */
 ::selection {
   background: rgba(174, 217, 224, 0.6);
 }
