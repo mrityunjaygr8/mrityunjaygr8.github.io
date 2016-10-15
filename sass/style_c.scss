@@ -7,7 +7,7 @@
 @import "angled-edges";
 
 // font import
-@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+@import url('https://fonts.googleapis.com/css?family=Playball|Raleway|Unica+One');
 
 .left{
     position: fixed;
@@ -18,14 +18,19 @@
     @include full;
     z-index: 4;
     & a:hover{
-        background: transparentize($primary-c, 0.40);
-        // background: darken($secondary-c, 12.5%)
+        border-bottom: 6px solid $primary-c;
     }
 
     @include susy-breakpoint(40rem){
         @include span(3 of 12 0);
         height: 100vh;
-        box-shadow: 1 2px 6px rgba(0,0,0,0.36);
+    }
+
+    & svg{
+        width: 60%;
+        height: auto;
+        margin: auto;
+        display: block;
     }
 }
 
@@ -88,9 +93,6 @@
     @include full;
     @include susy-breakpoint(40rem){
         @include angled-edge('outside top', 'upper left', $background-c);
-        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     };
     padding: 1rem;
 
@@ -148,12 +150,4 @@
             @include full;
         }
     }
-}
-
-
-.me{
-    border-radius: 50%;
-    height: 20vh;
-    width: 20vh;
-    background: $tertiary-c;
 }

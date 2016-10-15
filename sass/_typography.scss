@@ -111,8 +111,16 @@ a
 }
 
 .heading{
-    font-family: "Lobster";
+    font-family: "Unica One", cursive;
     .wrap &{
         color: darken($secondary-c, 12.5%);
     }
+
+    &>span{
+        border-bottom: solid 6px $tertiary-c;
+    }
+}
+
+.name{
+    font-family: "Playball", cursive;
 }
